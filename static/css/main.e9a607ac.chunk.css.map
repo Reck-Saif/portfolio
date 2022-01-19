@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/personal/navcss.module.scss"],"names":[],"mappings":"AAAA,IACI,qBAAsB","file":"main.e9a607ac.chunk.css","sourcesContent":["div{\n    background-color: aqua;\n}"]}
