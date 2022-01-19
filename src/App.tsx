@@ -1,16 +1,11 @@
 // App.tsx
 import React from 'react'
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import ClickCount from './clickCount';
-
+import Navbar from './personal/navbar';
 
 const App: React.FC = () => {
   return (
     <div>
-      <MyFirstComponent />
-      <SomeExampleComponent />
-      <ClickCount/>
+      <Navbar />
     </div>
   )
 }

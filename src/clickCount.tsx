@@ -13,7 +13,7 @@ const ClickCount: React.FC<ClickCountProps> = () => {
     return (
       <div className={styles.container}>
         <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>
+        <button onClick={() => setCount(count + 10)}>
           Click me
         </button>
       </div>
