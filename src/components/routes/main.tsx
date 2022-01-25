@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './maincss.module.scss';
 import { Link } from 'react-router-dom';
+
 type MainProps = {
 
 }
@@ -12,10 +13,9 @@ const Main: React.FC<MainProps> = () => {
         <h1>Hi!</h1>
         <p>I'm Saif Said</p>
         <p>Software Developer</p>
-        <Link to={"/learnmore"}><a href='http://localhost:3000/cv'><button type="button">Learn More</button></a></Link>
-
+        <a href="http://localhost:3000/projects"><button type="button">Learn more</button></a>
+        
      </div>
-
   )
 }
 
