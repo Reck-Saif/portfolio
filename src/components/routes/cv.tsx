@@ -7,7 +7,7 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div>
-      Cv
+        This is Cv 
     </div>
   )
 }
