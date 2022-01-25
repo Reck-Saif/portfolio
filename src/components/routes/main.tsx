@@ -13,8 +13,7 @@ const Main: React.FC<MainProps> = () => {
         <h1>Hi!</h1>
         <p>I'm Saif Said</p>
         <p>Software Developer</p>
-        <a href="http://localhost:3000/projects"><button type="button">Learn more</button></a>
-        
+        <Link to='/projects'>Learn more</Link>
      </div>
   )
 }
