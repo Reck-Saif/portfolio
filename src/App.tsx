@@ -1,6 +1,6 @@
 // App.tsx
 import React from 'react'
-import Navbar from './personal/navbar';
+import Navbar from './navbar/navbar';
 import {
   BrowserRouter as Router,
   Switch,

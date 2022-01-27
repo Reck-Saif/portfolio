@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .container {
-  background-color: #333;
+  background-color: #272727;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -11,10 +11,10 @@
 .container a {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 20px;
   text-decoration: none;
-  font-size: 17px;
-
+  font-size: 20px;
+  font-family: 'Oregano', cursive;
 }
 
 /* Change the color of links on hover */
@@ -28,3 +28,20 @@
   background-color: #04AA6D;
   color: white;
 }
+
+.logo img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: -35px;
+  left: 10px;
+}
+
+.media img{
+  width: 35px;
+  margin: 10px;
+  position: relative;
+  left: 700px;
+  filter: grayscale(90%);
+}
+
