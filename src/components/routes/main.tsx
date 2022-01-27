@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './maincss.module.scss';
 import { Link } from 'react-router-dom';
+import phone from '../../media/phone.png'
+// import logo from '../../media/saif.png'
 
 type MainProps = {
 
@@ -10,11 +12,20 @@ const Main: React.FC<MainProps> = () => {
   return (
     
     <div className={styles.container}>
+      
+      <div className={styles.left}>
         <h1>Hi!</h1>
         <p>I'm Saif Said</p>
         <p>Software Developer</p>
-        <Link to='/projects'>Learn more</Link>
-     </div>
+        <button><Link to='/projects'>Learn more</Link></button>
+      </div>
+      
+      <div className={styles.right}>
+        <img src={phone} alt="saifphoto" />
+
+      </div>
+      
+    </div>
   )
 }
 
