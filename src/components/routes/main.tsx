@@ -9,17 +9,16 @@ type MainProps = {
 
 const Main: React.FC<MainProps> = () => {
   return (
-    
     <div className={styles.container}>
       
-      <div className={styles.left}>
+      <div className={styles.content}>
         <h1>Hi!</h1>
         <p>I'm Saif Said</p>
         <p>Software Developer</p>
         <button><Link to='/projects'>My work</Link></button>
       </div>
       
-      <div className={styles.right}>
+      <div className={styles.imgContainer}>
         <img src={phone} alt="saifphoto" />
       </div>
 

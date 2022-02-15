@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from '../media/saif.png'
 import facebook from '../media/facebook.png'
 import instagram from '../media/instagram.png'
+import link from '../media/link.png'
 
 type NavbarProps = {
 
@@ -19,11 +20,6 @@ const Navbar: React.FC<NavbarProps> = () => {
        
        <div className={styles.logo}>
         <img src={logo} alt="logo" />
-       </div>
-
-       <div className={styles.media}>
-          <img src={facebook} alt="facebook" />
-          <img src={instagram} alt="instagram" />
        </div>
     </div>
   )
