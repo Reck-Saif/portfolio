@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './navcss.module.scss';
 import { Link } from 'react-router-dom';
 import logo from '../media/saif.png'
-import facebook from '../media/facebook.png'
-import instagram from '../media/instagram.png'
-import link from '../media/link.png'
+// import facebook from '../media/facebook.png'
+// import instagram from '../media/instagram.png'
+// import link from '../media/link.png'
 
 type NavbarProps = {
 
