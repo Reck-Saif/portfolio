@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .container {
-  background-color: #272727;
+  background-color: #072227;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -10,9 +10,9 @@
 
 /* Style the links inside the navigation bar */
 .container a {
-  color: #f2f2f2;
+  color: #4FBDBA;
   text-align: center;
-  padding: 20px 20px;
+  padding: 25px 20px;
   text-decoration: none;
   font-size: 20px;
   font-family: 'Oregano', cursive;
@@ -20,8 +20,8 @@
 
 /* Change the color of links on hover */
 .container a:hover {
-  background-color: blueviolet;
-  color: rgb(255, 255, 255);
+  background-color: #35858B;
+  color: #AEFEFF;
 }
 
 /* Add a color to the active/current link */
@@ -38,9 +38,36 @@
   top: 10px;
 }
 
+// byrgers menu
+.burgerMenuButton {
+  display: none;
+  cursor: pointer;
+}
+
+.brgrMenuItems{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 61px;
+  background-color: #04AA6D;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.burgerMenuItems{
+  
+  a{
+    color:aliceblue;
+    font-size: 18px;
+    padding: 5px 0;
+  }
+}
+
 // mobile
 
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 768px) 
 {
   .logo img{
     width: 100px;
@@ -48,10 +75,7 @@
     position: absolute;
     left: 0;
   }
-}
 
-@media screen and (max-width: 700px) 
-{
   .container a{
     font-size: 15px;
   }
@@ -60,7 +84,26 @@
    justify-content: right;
   }
 
+  .burgerMenubutton{
+    display: block;
+  }
 }
+
+// @media screen and (max-width: 768px) 
+// {
+//   .container a{
+//     font-size: 15px;
+//   }
+
+//   .container{
+//    justify-content: right;
+//   }
+
+//   .burgerMenubutton{
+//     display: block;
+//   }
+
+// }
 
 
 
