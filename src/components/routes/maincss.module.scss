@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    height: 90vh;
+    height: 100vh;
     background-color: aqua;
 
     display: flex; // tekee containerista flexin, sisältöä voi liikutella mielivaltaisesti
@@ -26,7 +26,8 @@
     font-size: 4.5rem;
 }
 
-.button
+
+.btn
 {
     background-color: #072227;
     border-radius: 20px;
@@ -42,14 +43,31 @@
 }
 
 // mobile version
-@media screen and (max-width: 755px) 
+@media screen and (max-width: 900px) 
 {
-    // .container p{
-    //     font-size: 50px;
-    //     text-align: center;
+    // .container{
+    //     height: 100vh;
     // }
+    
+    .heading{
+        font-size: 6rem;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .container p{
+        display: block;
+        font-size: 2rem;
+        
+    }
 
-    // .container .button{
-     
-    // }
+    .container .btn{
+        width: 50%;
+        background-color: #0c3a42;
+    }
+
+    .btn a{
+        font-size: 2rem;
+        color: #4FBDBA;
+    }
 }
