@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 .container {
-  background-color: #072227;
-  overflow: hidden;
+  background-color: #00ADB5;
+  // overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
 
 /* Style the links inside the navigation bar */
 .container a {
-  color: #4FBDBA;
+  color: #EEEEEE;
   text-align: center;
   padding: 25px 20px;
   text-decoration: none;
@@ -20,14 +20,8 @@
 
 /* Change the color of links on hover */
 .container a:hover {
-  background-color: #35858B;
-  color: #AEFEFF;
-}
-
-/* Add a color to the active/current link */
-.container a.active {
-  background-color: #04AA6D;
-  color: rgb(255, 255, 255);
+  background-color: #393e468f;
+  color: #222831;
 }
 
 .logo img{
@@ -51,7 +45,7 @@
   align-items: center;
   position: absolute;
   top: 61px;
-  background-color: #04AA6D;
+  background-color: #EEEEEE;
   width: 100vw;
   z-index: 1000;
 }
@@ -59,10 +53,16 @@
 .burgerMenuItems{
   
   a{
-    color:aliceblue;
+    color:00ADB5;
     font-size: 18px;
     padding: 5px 0;
   }
+}
+
+.social{
+  position: absolute;
+  right: 0;
+  margin: 10px;
 }
 
 // mobile
@@ -87,23 +87,13 @@
   .burgerMenubutton{
     display: block;
   }
+
+  .social{
+    display: none;
+  }
 }
 
-// @media screen and (max-width: 768px) 
-// {
-//   .container a{
-//     font-size: 15px;
-//   }
 
-//   .container{
-//    justify-content: right;
-//   }
-
-//   .burgerMenubutton{
-//     display: block;
-//   }
-
-// }
 
 
 

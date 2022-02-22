@@ -1,4 +1,41 @@
 
+.container{
+    background-color: #222831;
+    height: 100vh;
+}
 
+.container h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-family: monospace;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
 
+.containerimg{
+    text-align: center;
+    padding-top: 50px;
+}
 
+#img1{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+#img1:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#img2{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+#img3{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+}
