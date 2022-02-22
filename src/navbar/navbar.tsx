@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from '../media/saif.png'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-
-
+import { FaHamburger } from 'react-icons/fa';
 
 type NavbarProps = {
 
@@ -16,12 +15,14 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     
     <div className={styles.container}>
-       <Link to={"/"}>Homepage</Link>
-       <Link to={"/projects"}>Projects</Link>
-       <Link to={"/cv"}>Cv</Link>
+      <div className={styles.desktopLinks}>
+        <Link to={"/"}>Homepage</Link>
+        <Link to={"/projects"}>Projects</Link>
+        <Link to={"/cv"}>Cv</Link>
+      </div>
        
        <div className={styles.burgerMenuButton} onClick={() => setBurgermenuIsOpen(!burgermenuIsOpen)}>
-            <GiHamburgerMenu size={28} />
+            <FaHamburger size={28} color="#4FBDBA"/>
         </div>
         {
           burgermenuIsOpen

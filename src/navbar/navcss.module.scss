@@ -3,14 +3,21 @@
   background-color: #00ADB5;
   // overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   position: relative;
+  min-height: 70px;
+}
+
+.container .desktopLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
-.container a {
-  color: #EEEEEE;
+.container .desktopLinks a {
+  color: #4FBDBA;
   text-align: center;
   padding: 25px 20px;
   text-decoration: none;
@@ -19,9 +26,15 @@
 }
 
 /* Change the color of links on hover */
-.container a:hover {
-  background-color: #393e468f;
-  color: #222831;
+.container .desktopLinks a:hover {
+  background-color: #35858B;
+  color: #AEFEFF;
+}
+
+/* Add a color to the active/current link */
+.container .desktopLinks a.active {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
 }
 
 .logo img{
@@ -33,7 +46,7 @@
 }
 
 // byrgers menu
-.burgerMenuButton {
+.container .burgerMenuButton {
   display: none;
   cursor: pointer;
 }
@@ -69,23 +82,24 @@
 
 @media screen and (max-width: 768px) 
 {
-  .logo img{
+  .container .logo img{
     width: 100px;
     height: 50px;
     position: absolute;
     left: 0;
-  }
-
-  .container a{
-    font-size: 15px;
+    // display: none;
   }
 
   .container{
    justify-content: right;
   }
 
-  .burgerMenubutton{
-    display: block;
+  .container .desktopLinks a{
+    display: none;
+  }
+
+  .container .burgerMenuButton{
+    display: unset;
   }
 
   .social{

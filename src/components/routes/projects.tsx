@@ -3,6 +3,10 @@ import styles from './projects.module.scss';
 import jump from '../../media/jump.png';
 import plane from '../../media/plane.png';
 import maze from '../../media/maze.png';
+// import cyber from '../media/cyber.png';
+// import it from '../media/it.png';
+// import packet from '../media/packet.png';
+
 
 
 type ProjectsProps = {
