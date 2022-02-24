@@ -28,9 +28,9 @@ const Navbar: React.FC<NavbarProps> = () => {
           burgermenuIsOpen
             ? (
             <div className={styles.brgrMenuItems}>
-            <Link to={"/"}>Homepage</Link>
-            <Link to={"/projects"}>Projects</Link>
-            <Link to={"/cv"}>Cv</Link>
+              <Link to={"/"}>Homepage</Link>
+              <Link to={"/projects"}>Projects</Link>
+              <Link to={"/cv"}>Cv</Link>
             </div>
               )
             : null
@@ -38,16 +38,6 @@ const Navbar: React.FC<NavbarProps> = () => {
         
        <div className={styles.logo}>
         <img src={logo} alt="logo" />
-       </div>
-
-       <div className={styles.social}>
-            <ul>
-              <li className={styles.style}>
-                <a href=""><FaFacebook/></a>
-                <a href=""><FaInstagram/></a>
-                <a href=""><FaLinkedin/></a>
-              </li>
-            </ul>
        </div>
     </div>
   )

@@ -7,6 +7,7 @@
   align-items: center;
   position: relative;
   min-height: 70px;
+  user-select: none;
 }
 
 .container .desktopLinks {
@@ -17,32 +18,26 @@
 
 /* Style the links inside the navigation bar */
 .container .desktopLinks a {
-  color: #4FBDBA;
+  color: #ffffff;
   text-align: center;
-  padding: 25px 20px;
+  padding: 20px 50px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Oregano', cursive;
+  text-transform: uppercase;
 }
 
 /* Change the color of links on hover */
 .container .desktopLinks a:hover {
-  background-color: #35858B;
-  color: #AEFEFF;
-}
-
-/* Add a color to the active/current link */
-.container .desktopLinks a.active {
-  background-color: #04AA6D;
-  color: rgb(255, 255, 255);
+  background-color: #222831;
+  color: #ffffff;
 }
 
 .logo img{
-  height: 70px;
-  width: 200px;
   position: absolute;
-  left: 150px;
+  left: 0;
   top: 10px;
+  
 }
 
 // byrgers menu
@@ -58,25 +53,23 @@
   align-items: center;
   position: absolute;
   top: 61px;
-  background-color: #EEEEEE;
+  background-color: #ffffff;
   width: 100vw;
   z-index: 1000;
 }
 
-.burgerMenuItems{
+.brgrMenuItems{
   
   a{
-    color:00ADB5;
-    font-size: 18px;
+    color: #00ADB5;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
     padding: 5px 0;
   }
 }
 
-.social{
-  position: absolute;
-  right: 0;
-  margin: 10px;
-}
+
 
 // mobile
 
@@ -102,9 +95,7 @@
     display: unset;
   }
 
-  .social{
-    display: none;
-  }
+  
 }
 
 

@@ -1,7 +1,7 @@
 
 .container{
     background-color: #222831;
-    height: 100vh;
+    height: 120vh;
 }
 
 .container h1{
@@ -15,27 +15,128 @@
 
 .containerimg{
     text-align: center;
-    padding-top: 50px;
 }
 
 #img1{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 50px 50px;
     width: 300px;
 }
 
 #img1:hover{
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    transform: rotate(0deg) skew(5deg) translate(0, -10px);
 }
 
 #img2{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 50px 50px;
     width: 400px;
 }
 
+#img2:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
 #img3{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 50px 50px;
     width: 300px;
 }
+
+#img3:hover{
+    transform: rotate(5deg) skew(0deg) translate(0, -10px);
+}
+
+.container hr{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+//certificate images
+
+.certificateimg{
+    text-align: center;
+}
+
+#img4{
+    width: 200px;
+    margin: 50px 100px;
+}
+
+#img4:hover{
+    transform: rotate(0deg) skew(5deg) translate(0, -10px);
+}
+
+#img5{
+    width: 250px;
+    margin: 50px 100px;
+}
+
+#img5:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#img6{
+    width: 200px;
+    margin: 50px 100px;
+}
+
+#img6:hover{
+    transform: rotate(5deg) skew(0deg) translate(0, -10px);
+}
+
+
+//mobile version
+
+@media screen and (max-width: 700px){
+    
+    .container{
+        height: 200%;
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    #cisco{
+        font-size: 3rem;
+    }
+    
+    .container h1{
+        font-size: 4rem;
+    }
+
+    .containerimg{
+        text-align: center;
+    }
+
+    #img1{
+        width: 150px;
+        filter: grayscale(50%);
+    }
+
+    #img2{
+        width: 200px;
+        filter: grayscale(50%);
+    }
+
+    #img3{
+        width: 150px;
+        filter: grayscale(50%);
+    }
+
+    #img4{
+        width: 150px;
+    }
+
+    #img5{
+        width: 200px;
+    }
+
+    #img6{
+        width: 150px;
+    }
+
+    .container hr{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
