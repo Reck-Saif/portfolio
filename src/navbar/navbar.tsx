@@ -2,8 +2,6 @@ import React, { useState }from 'react'
 import styles from './navcss.module.scss';
 import { Link } from 'react-router-dom';
 import logo from '../media/saif.png'
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaHamburger } from 'react-icons/fa';
 
 type NavbarProps = {

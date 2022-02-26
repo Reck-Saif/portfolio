@@ -15,6 +15,7 @@
 
 .containerimg{
     text-align: center;
+    box-shadow: 10px 10px 50px #00ADB5;
 }
 
 #img1{
@@ -54,6 +55,7 @@
 
 .certificateimg{
     text-align: center;
+    box-shadow: 10px 10px 50px #00ADB5;
 }
 
 #img4{
@@ -91,7 +93,7 @@
     .container{
         height: 200%;
         width: 100%;
-        overflow-y: hidden;
+        // overflow-y: hidden;
     }
 
     #cisco{
