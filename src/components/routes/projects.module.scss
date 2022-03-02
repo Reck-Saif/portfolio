@@ -1,7 +1,7 @@
 
 .container{
     background-color: #222831;
-    height: 120vh;
+    height: 100%;
 }
 
 .container h1{
@@ -16,6 +16,7 @@
 .containerimg{
     text-align: center;
     box-shadow: 10px 10px 50px #00ADB5;
+    margin-top: 50px;
 }
 
 #img1{
@@ -56,6 +57,7 @@
 .certificateimg{
     text-align: center;
     box-shadow: 10px 10px 50px #00ADB5;
+    margin-top: 50px;
 }
 
 #img4{
@@ -69,7 +71,7 @@
 
 #img5{
     width: 250px;
-    margin: 50px 100px;
+    margin: 20px 0;
 }
 
 #img5:hover{
@@ -91,9 +93,7 @@
 @media screen and (max-width: 700px){
     
     .container{
-        height: 200%;
-        width: 100%;
-        // overflow-y: hidden;
+        height: 100%;
     }
 
     #cisco{
