@@ -2,14 +2,14 @@
 
 .container{
     position: relative;
-    height: 1000px;
+    height: 1500px;
     width: 800px;
     margin: 0 auto;
     transition: .3s;
 }
 
 .cvimg {
-    text-align: left;
+    text-align: center;
 }
 
 .cvimg img{
@@ -19,58 +19,42 @@
 }
 
 .container h1{
-    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     text-transform: uppercase;
-}
-
-#name{
-    position: relative;
-    bottom: 150px;
-    left: 400px;
-    width: 400px;
-    font-size: 4rem;
-    color: #08767c;
+    margin-top: 50px;
+    text-align: center;
 }
 
 #skill{
-    position: relative;
-    width: 200px;
+    text-align: center;
+    margin-top: 50px;
     color: #ffffff;
-}
-
-//educations section
-.education{
-    position: relative;
-    top: 300px;
-}
-
-.education h1{
-    font-size: 3rem;
-    color: #ffffff;
-}
-.education span{
-    color: white;
-    font-size: 1em;
 }
 
 .education p{
-    position: relative;
-    top: 20px;
+    text-align: center;
+    margin-top: 30px;
     color: #08767c;
+    font-size: 1.2rem;
 }
 
-
-
+.education p span{
+    color: #00acb5;
+    font-size: 1.5rem;
+}
 
 //progress bar
-
 .bar{
-    width: 500px;
+    width: 600px;
     margin: 0 auto 0;
     padding: 20px;
-    float: left;
+}
+
+.skills{
+    width: 600px;
+    margin: 0 auto 0;
+    padding: 20px;
 }
 
 li{
@@ -93,7 +77,7 @@ li:before{
     border-radius: 1000px;
 }
 
-li::after{
+li:after{
     content: "";
     position: absolute;
     top: calc(100% + 10px);
@@ -123,17 +107,17 @@ li.css:after{
 
 @keyframes css {
     to{
-        width: 70%;
+        width: 80%;
     }
 }
 
-li.java:after{
-    animation-name: java;
+li.react:after{
+    animation-name: react;
 }
 
-@keyframes java {
+@keyframes react {
     to{
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -148,6 +132,49 @@ li.javascript:after{
 }
 
 
+//skills bar
+li.shopify:after{
+    animation-name: shopify;
+}
+
+@keyframes shopify {
+    to{
+        width: 100%;
+    }
+}
+
+li.marketing:after{
+    animation-name: marketing;
+}
+
+@keyframes marketing {
+    to{
+        width: 70%;
+    }
+}
+
+li.wordpress:after{
+    animation-name: wordpress;
+}
+
+@keyframes wordpress {
+    to{
+        width: 80%;
+    }
+}
+
+li.web:after{
+    animation-name: web;
+}
+
+@keyframes web {
+    to{
+        width: 80%;
+    }
+}
+
+
+//mobile things
 @media screen and (max-width: 820px) {
 
     .container{
@@ -203,8 +230,14 @@ li.javascript:after{
         padding: 0;
     }
 
+    .skills{
+        width: 300px;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }
+
     #skill{
         margin: 40px 0px 0px 20px;
     }
-
+    
 }
