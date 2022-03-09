@@ -2,7 +2,7 @@
 
 .container{
     position: relative;
-    height: 1500px;
+    height: 2000px;
     width: 800px;
     margin: 0 auto;
     transition: .3s;
@@ -26,25 +26,91 @@
     text-align: center;
 }
 
-#skill{
+.container h3{
+    color: #00ADB5;
+    text-align: center; 
+    margin-top: 30px; 
+    font-size: 2rem;  
+    text-transform: uppercase;
+}
+
+
+.container hr{
+    position: relative;
+    left: 150px;
+    margin-top: 30px;
+    width: 500px;
+}
+
+                                    //hastags
+#best{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px ;
     color: #ffffff;
 }
 
+#other{
+    color: #ffffff;
+}
+                                    //educations 
 .education p{
     text-align: center;
     margin-top: 30px;
-    color: #08767c;
+    color: #000000;
     font-size: 1.2rem;
 }
 
 .education p span{
-    color: #00acb5;
+    color: #000000;
     font-size: 1.5rem;
 }
 
-//progress bar
+
+                                    //skills img
+
+.skills_img img{
+    width: 100px;
+    margin: 80px;
+}
+
+#word:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#shopify:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#woo:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#html:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#css:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#java:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#js:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#sql:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#react:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+
+                                //This is progress bar
 .bar{
     width: 600px;
     margin: 0 auto 0;
@@ -121,55 +187,13 @@ li.react:after{
     }
 }
 
-li.javascript:after{
-    animation-name: javascript;
-}
-
-@keyframes javascript {
-    to{
-        width: 60%;
-    }
-}
-
-
-//skills bar
-li.shopify:after{
-    animation-name: shopify;
-}
-
-@keyframes shopify {
-    to{
-        width: 100%;
-    }
-}
-
-li.marketing:after{
-    animation-name: marketing;
-}
-
-@keyframes marketing {
-    to{
-        width: 70%;
-    }
-}
-
 li.wordpress:after{
     animation-name: wordpress;
 }
 
 @keyframes wordpress {
     to{
-        width: 80%;
-    }
-}
-
-li.web:after{
-    animation-name: web;
-}
-
-@keyframes web {
-    to{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -188,10 +212,18 @@ li.web:after{
         padding: 0;
     }
 
-    #skill{
-        position: static;
-        float: left;
-        margin: 40px 0px 0px 20px;
+    #best{
+        margin: 20px 0px 0px 20px;
+    }
+
+    .container hr{
+        width: 250px;
+    }
+
+    #other{
+        margin-bottom: 50px;
+        position: relative;
+        top: 30px;
     }
 
 }
@@ -209,7 +241,7 @@ li.web:after{
         padding: 0;
     }
 
-    #skill{
+    #best{
         position: static;
         float: left;
         margin: 60px 0px 0px 20px;
@@ -230,13 +262,7 @@ li.web:after{
         padding: 0;
     }
 
-    .skills{
-        width: 300px;
-        margin: 0px 0px 0px 20px;
-        padding: 0;
-    }
-
-    #skill{
+    #best{
         margin: 40px 0px 0px 20px;
     }
     
