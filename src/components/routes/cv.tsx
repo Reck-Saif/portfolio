@@ -10,7 +10,11 @@ import java from '../../media/java.png';
 import js from '../../media/js.png';
 import sql from '../../media/sql.png';
 import react from '../../media/react.png';
-
+import github from '../../media/github.png';
+import git from '../../media/git.png';
+import sass from '../../media/sass.png';
+import unity from '../../media/unity.png';
+import c from '../../media/c.png';
 
 
 type CvProps = {
@@ -60,6 +64,11 @@ const Cv: React.FC<CvProps> = () => {
     <img id={styles.js} src={js} alt="js" />  
     <img id={styles.sql} src={sql} alt="sql" />  
     <img id={styles.react} src={react} alt="react" />  
+    <img id={styles.github} src={github} alt="github" />  
+    <img id={styles.git} src={git} alt="git" />  
+    <img id={styles.sass} src={sass} alt="sass" />  
+    <img id={styles.unity} src={unity} alt="unity" />  
+    <img id={styles.c} src={c} alt="c" />  
   </div>
 
   <div className={styles.lang}>

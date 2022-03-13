@@ -23,8 +23,8 @@ const Projects: React.FC<ProjectsProps> = () => {
 
       <div className={styles.containerimg}>
         <a href="https://play.unity.com/mg/other/saifs-unit-3-jumping-game" rel="noreferrer" target='_blank'><img id={styles.img1} src={jump} alt="jumpgame" /></a>
-        <a href="https://play.unity.com/mg/other/maze-game-21" rel="noreferrer" target='_blank'><img id={styles.img2} src={plane} alt="planegame" /></a>
-        <a href="https://play.unity.com/mg/other/plane-game-12" rel="noreferrer" target='_blank'><img id={styles.img3} src={maze} alt="mazegame" /></a>
+        <a href="https://play.unity.com/mg/other/plane-game-12" rel="noreferrer" target='_blank'><img id={styles.img2} src={plane} alt="planegame" /></a>
+        <a href="https://play.unity.com/mg/other/maze-game-21" rel="noreferrer" target='_blank'><img id={styles.img3} src={maze} alt="mazegame" /></a>
       </div>
 
       <hr />
