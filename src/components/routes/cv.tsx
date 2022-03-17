@@ -15,6 +15,8 @@ import git from '../../media/git.png';
 import sass from '../../media/sass.png';
 import unity from '../../media/unity.png';
 import c from '../../media/c.png';
+import npm from '../../media/npm.png'
+import boot from '../../media/boot.png'
 
 
 type CvProps = {
@@ -66,9 +68,12 @@ const Cv: React.FC<CvProps> = () => {
     <img id={styles.react} src={react} alt="react" />  
     <img id={styles.github} src={github} alt="github" />  
     <img id={styles.git} src={git} alt="git" />  
-    <img id={styles.sass} src={sass} alt="sass" />  
-    <img id={styles.unity} src={unity} alt="unity" />  
-    <img id={styles.c} src={c} alt="c" />  
+    <img id={styles.sass} src={sass} alt="sass" />    
+    <img id={styles.c} src={c} alt="c" /> 
+    <img id={styles.npm} src={npm} alt="npm" /> 
+    <img id={styles.boot} src={boot} alt="boot" /> 
+    <img id={styles.unity} src={unity} alt="unity" />
+
   </div>
 
   <div className={styles.lang}>

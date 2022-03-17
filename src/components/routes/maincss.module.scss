@@ -31,7 +31,7 @@
 .btn
 {
     background-color: #92A9BD;
-    // filter: drop-shadow(5px 5px #ccc);
+    filter: drop-shadow(5px 5px #b9d2e7);
     width: 45vw;
     
     font-size: 2.5rem;
@@ -39,7 +39,6 @@
     top: 20px;
     border-radius: 30px;
     border: none;
-
 
     a{
         color: #ffefef;
@@ -49,7 +48,7 @@
     }
 
     a:hover{
-        color: #7c99ac;
+        color: #00000088;
     }
 }
 

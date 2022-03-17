@@ -6,7 +6,7 @@
 
 .container{
     position: relative;
-    height: 2800px;
+    height: 3000px;
     width: 800px;
     margin: 0 auto;
     transition: .3s;
@@ -123,6 +123,38 @@
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 
+#github:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#git:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#sass:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#github:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#c:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#npm:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#boot:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+#unity:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
 
                                 //This is progress bar
 .bar{
@@ -217,7 +249,7 @@ li.wordpress:after{
 
     .container{
         width: 560px;
-        height: 760px;
+        height: 3500px;
     }
 
     .bar{
@@ -246,7 +278,7 @@ li.wordpress:after{
 
     .container{
         width: 460px;
-        height: 760px;
+        height: 3300px;
     }
 
     .bar{
@@ -277,7 +309,7 @@ li.wordpress:after{
 
     .container{
         width: 360px;
-        height: 760px;
+        height: 3200px;
     }
 
     .bar{
