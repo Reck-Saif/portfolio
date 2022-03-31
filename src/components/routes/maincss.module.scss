@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 880px) {
     .btn {
         width: 20vw;
     }
@@ -77,5 +77,11 @@
         width: 50%;
         position: relative;
         top: -5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn a {
+        font-size: 25px;
     }
 }

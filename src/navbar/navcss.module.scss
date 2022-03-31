@@ -38,17 +38,21 @@ body{
   color: #D3DEDC;
 }
 
-.logo img{
+.container .logo img{
+  width: 100px;
+  height: 70px;
   position: absolute;
   left: 0;
-  top: 2px;
-  
+  bottom: 0;
+  margin-left: 20px;
 }
+
 
 // byrgers menu
 .container .burgerMenuButton {
   display: none;
   cursor: pointer;
+  margin: 0 10px;
 }
 
 .brgrMenuItems{
@@ -80,13 +84,11 @@ body{
 
 @media screen and (max-width: 768px) 
 {
-  .container .logo img{
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    // display: none;
-  }
+  // .container .logo img{
+  //   width: 100px;
+  //   height: 70px;
+  //   margin-bottom: 20px;
+  // }
 
   .container{
    justify-content: right;
