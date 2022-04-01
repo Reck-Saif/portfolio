@@ -6,9 +6,9 @@ import maze from '../../media/maze.png';
 import cyber from '../../media/cyber.png';
 import it from '../../media/it.png';
 import packet from '../../media/packet.png';
-import  marketing from '../../media/marketing.png';
-import trigol from '../../media/trigol.png';
-import himva from '../../media/himva.png';
+import homepage from '../../media/homepage.png';
+import salt from '../../media/Salt.png';
+import motorbike from '../../media/motorbike.png';
 
 
 
@@ -19,7 +19,7 @@ type ProjectsProps = {
 const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className={styles.container}>
-      <h1>Unity</h1>
+      <h1>Unity Projects</h1>
 
       <div className={styles.containerimg}>
         <a href="https://play.unity.com/mg/other/saifs-unit-3-jumping-game" rel="noreferrer" target='_blank'><img id={styles.img1} src={jump} alt="jumpgame" /></a>
@@ -39,12 +39,12 @@ const Projects: React.FC<ProjectsProps> = () => {
 
       <hr />
 
-      <h1>wordpress</h1>
+      <h1>wordpress Projects</h1>
 
       <div className={styles.certificateimg}>
-        <a href="https://sba-brothers.com/schoolproject/" rel="noreferrer" target='_blank'><img id={styles.img4} src={marketing} alt="cyber" /></a>
-        <a href="https://sba-brothers.com/himva.fi/" rel="noreferrer" target='_blank'><img id={styles.img5} src={himva} alt="it" /></a>
-        <a href="https://sba-brothers.com/Select/" rel="noreferrer" target='_blank'><img id={styles.img6} src={trigol} alt="packet" /></a>
+        <a href="https://trigol.com/" rel="noreferrer" target='_blank'><img id={styles.img4} src={homepage} alt="cyber" /></a>
+        <a href="https://sba-brothers.com/motorsports" rel="noreferrer" target='_blank'><img id={styles.img5} src={motorbike} alt="it" /></a>
+        <a href="https://trigol.com/himalayansalt/" rel="noreferrer" target='_blank'><img id={styles.img6} src={salt} alt="packet" /></a>
       </div>
     </div>
   )

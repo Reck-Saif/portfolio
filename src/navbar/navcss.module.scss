@@ -1,11 +1,11 @@
 /* Add a black background color to the top navigation */
 body{
-  background-color: #222831;
+  background-color: #000000;
   font-family: monospace;
 }
 
 .container {
-  background-color: #7c99acdc;
+  // background-color: #7c99acdc;
   // overflow: hidden;
   display: flex;
   justify-content: flex-end;
@@ -23,7 +23,7 @@ body{
 
 /* Style the links inside the navigation bar */
 .container .desktopLinks a {
-  color: #FFEFEF;
+  color: #ffffff;
   text-align: center;
   padding: 20px 50px;
   text-decoration: none;
@@ -34,8 +34,8 @@ body{
 
 /* Change the color of links on hover */
 .container .desktopLinks a:hover {
-  background-color: #7c99ac79;
-  color: #D3DEDC;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .container .logo img{
@@ -62,7 +62,7 @@ body{
   align-items: center;
   position: absolute;
   top: 61px;
-  background-color: #D3DEDC;
+  background-color: #ffffff;
   width: 100vw;
   z-index: 1000;
 }
@@ -70,11 +70,11 @@ body{
 .brgrMenuItems{
   
   a{
-    color: #7C99AC;
+    color: #000000;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 10px 0;
   }
 }
 

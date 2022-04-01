@@ -4,7 +4,7 @@
 }
 .container{
     height: calc(100vh - 75px);
-    background-color: #7C99AC;
+    background-color: #1b1a1a;
 
     display: flex; // tekee containerista flexin, sisältöä voi liikutella mielivaltaisesti
     flex-direction: column; // härjrstää flexin containerin sisällön päällekkäin
@@ -16,22 +16,25 @@
     font-size: 10rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: #FFEFEF;
+    color: #ffffff;
+    user-select: none;
 }
 
 .container p{
-    color: #D3DEDC;
+    color: #8d9292;
     text-align: center;
     top: 15%;
     font-family: monospace;
     font-size: 4.5rem;
+    user-select: none;
+
 }
 
 
 .btn
 {
-    background-color: #92A9BD;
-    filter: drop-shadow(5px 5px #b9d2e7);
+    background-color: #ffffff;
+    filter: drop-shadow(5px 5px #8d9292);
     width: 45vw;
     
     font-size: 2.5rem;
@@ -41,14 +44,14 @@
     border: none;
 
     a{
-        color: #ffefef;
+        color: #000000;
         text-decoration: none;
         white-space: nowrap;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     a:hover{
-        color: #00000088;
+        color: #3a3d3967;
     }
 }
 
